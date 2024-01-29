@@ -2,23 +2,25 @@
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { GrDocumentUser } from "react-icons/gr";
+import { IoIosArrowDown } from "react-icons/io";
 
 export const Main = ({theme}) => {
   return (
-    <main className="w-[100%] h-[80%] flex justify-center items-center">
-      <div className="flex justify-center items-center flex-col gap-3">
-        <div className="h-28">
-          <h1 className="text-[5.5rem] font-roboto font-bold text-slate-700 dark:text-slate-100">Mariana Cruz</h1>
+  <>
+    <main className="w-[50rem] h-[32rem] flex justify-center items-center">
+      <div className=" flex flex-col gap-3">
+        <div>
+          <h1 className="text-[4.5rem] font-roboto font-bold text-slate-700 dark:text-slate-100">Mariana Cruz</h1>
         </div>
         <div>
-          <h1 className="text-[3.5rem] font-roboto text-slate-600 dark:text-slate-300">FullStack Developer</h1>
+          <h1 className="text-[2.5rem] font-roboto text-slate-600 dark:text-slate-300">FullStack Developer</h1>
         </div>
         <div className="w-[60%]">
-          <p className="text-center text-slate-500 dark:text-slate-100">Desarrollador con experiencia en aplicaciones web y móviles, con conocimientos en el desarrollo de aplicaciones escalables y mantenibles</p>
+          <p className=" text-slate-500 dark:text-slate-100">Developer with experience in web and mobile applications, with knowledge in the development of scalable and maintainable applications</p>
         </div>
-        <div className="flex gap-5">
+        <div className="flex gap-2">
           <div className="relative group/tooltip">
-            <a href="" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 font-bold px-4 h-10 rounded-xl border-2 border-slate-700 text-sky-600">
+            <a href="" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 font-bold px-3 h-10 rounded-xl border-2 border-slate-700 text-sky-600">
               <FaLinkedin color="#0284c7" size={20} /> 
               Linkedin
             </a>
@@ -27,7 +29,7 @@ export const Main = ({theme}) => {
             </span>
           </div>
           <div className="relative group/tooltip">
-              <a href="https://github.com/Mjhon03" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 font-bold px-4 h-10 rounded-xl border-2 border-slate-700 text-slate-700 dark:text-slate-300">
+              <a href="https://github.com/Mjhon03" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 font-bold px-3 h-10 rounded-xl border-2 border-slate-700 text-slate-700 dark:text-slate-300">
                 {
                 theme === "light" ? <FaGithub color="#111827" size={20} />  : <FaGithub color="#cbd5e1" size={20} /> 
                 }
@@ -48,6 +50,18 @@ export const Main = ({theme}) => {
             </div>
         </div>
       </div>
+      <div>
+        <div>
+          <img src="src\assets\BlackLogo.png" alt="logoImg" className="w-[25rem] h-[10rem]" />
+        </div>
+        <h2 className="text-white"></h2>
+      </div>
     </main>
+    <main className="w-full h-[3rem]  flex justify-center items-center">
+      <div className="w-10 h-10 flex justify-center items-center animate-bounce cursor-pointer hover:bg-neutral-800 rounded-md">
+        <IoIosArrowDown color="#f1f5f9" size={27} />
+      </div>
+    </main>
+  </>
   )
 }
