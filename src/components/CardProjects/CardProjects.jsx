@@ -9,7 +9,7 @@ export const CardProjects = () => {
     <article className="w-[90%] h-[45rem] flex justify-center flex-col items-center">
         <a href="">
           <div>
-            <img src="src\assets\ProjectsImg.webp" alt=""  className="w-[39rem] h-[28rem] rounded-2xl" />
+            <img src="public\ProjectsImg.webp" alt=""  className="w-[39rem] h-[28rem] rounded-2xl" />
           </div>
         </a>
           <div className="w-[39rem] pt-5 flex flex-col gap-5">
@@ -17,7 +17,7 @@ export const CardProjects = () => {
               <h2 className="font-bold text-3xl text-slate-800 dark:text-white">Project Name</h2>
             </div>
             <div>
-              <p className="text-slate-600 dark:text-slate-300 text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati incidunt ullam natus minima tempore hic alias?</p>
+              <p className="text-zinc-950 dark:text-slate-300 text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati incidunt ullam natus minima tempore hic alias?</p>
             </div>
             <div className="flex gap-4">
               <div className="relative group/tooltip">

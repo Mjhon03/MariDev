@@ -7,16 +7,16 @@ import { IoIosArrowDown } from "react-icons/io";
 export const Main = ({theme}) => {
   return (
   <>
-    <main className="w-[50rem] h-[32rem] flex justify-center items-center">
-      <div className=" flex flex-col gap-3">
+    <main className="w-[50rem] h-[35rem] flex justify-center items-center">
+      <div className="flex flex-col gap-3">
         <div>
-          <h1 className="text-[4.5rem] font-roboto font-bold text-slate-700 dark:text-slate-100">Mariana Cruz</h1>
+          <h1 className="text-[4.5rem] font-roboto font-bold text-zinc-950 dark:text-slate-100">Mariana Cruz</h1>
         </div>
         <div>
-          <h1 className="text-[2.5rem] font-roboto text-slate-600 dark:text-slate-300">FullStack Developer</h1>
+          <h1 className="text-[2.5rem] font-roboto text-zinc-800 dark:text-slate-300">FullStack Developer</h1>
         </div>
         <div className="w-[60%]">
-          <p className=" text-slate-500 dark:text-slate-100">Developer with experience in web and mobile applications, with knowledge in the development of scalable and maintainable applications</p>
+          <p className=" text-slate-700 dark:text-slate-100">Developer with experience in web and mobile applications, with knowledge in the development of scalable and maintainable applications</p>
         </div>
         <div className="flex gap-2">
           <div className="relative group/tooltip">
@@ -29,7 +29,7 @@ export const Main = ({theme}) => {
             </span>
           </div>
           <div className="relative group/tooltip">
-              <a href="https://github.com/Mjhon03" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 font-bold px-3 h-10 rounded-xl border-2 border-slate-700 text-slate-700 dark:text-slate-300">
+              <a href="https://github.com/Mjhon03" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 font-bold px-3 h-10 rounded-xl border-2 border-slate-700 text-zinc-950 dark:text-slate-300">
                 {
                 theme === "light" ? <FaGithub color="#111827" size={20} />  : <FaGithub color="#cbd5e1" size={20} /> 
                 }
@@ -40,7 +40,7 @@ export const Main = ({theme}) => {
               </span>
             </div>
             <div className="relative group/tooltip">
-              <a href="" download="" className="flex items-center gap-3 font-bold px-4 h-10 rounded-xl border-2 border-slate-700 bg-[#6366F1] text-slate-700 dark:text-slate-100">
+              <a href="" download="" className="flex items-center gap-3 font-bold px-4 h-10 rounded-xl border-2 border-slate-700 bg-[#6366F1] text-zinc-950 dark:text-slate-100">
                 <GrDocumentUser color="#f1f5f9" size={20}/>
                 Donwload CV
               </a>
@@ -49,12 +49,6 @@ export const Main = ({theme}) => {
               </span>
             </div>
         </div>
-      </div>
-      <div>
-        <div>
-          <img src="src\assets\BlackLogo.png" alt="logoImg" className="w-[25rem] h-[10rem]" />
-        </div>
-        <h2 className="text-white"></h2>
       </div>
     </main>
     <main className="w-full h-[3rem]  flex justify-center items-center">

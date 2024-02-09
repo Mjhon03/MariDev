@@ -1,10 +1,10 @@
-import { useState } from 'react'
 import './App.css'
-import { StaticHeader } from './components/staticHeader/StaticHeader'
+import { useState } from 'react'
 import { useEffect } from 'react'
 import { Main } from './components/Main/Main'
 import { Experience } from './components/Experience/Experience'
 import { Projects } from './components/Projects/Projects'
+import { StaticHeader } from './components/StaticHeader/StaticHeader'
 
 function App() {
   const [theme, setTheme] = useState("light")
